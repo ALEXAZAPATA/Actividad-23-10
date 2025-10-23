@@ -1,29 +1,13 @@
-public class Impresora {
-    private boolean tieneTinta;
-    private boolean tieneBilletes;
- 
+public class Monedero {
+    public int dinero;
 
-    public Impresora(boolean tieneTinta,boolean tieneBilletes){
-        this.tieneTinta = tieneTinta;
-        this.tieneBilletes = tieneBilletes;
-     
+    public Monedero(int dinero){
+        this.dinero = dinero;
     }
 
-    pubic boolean tieneTinta(){
-        return tieneTinta;
+    public boolean esPosibleSuministrar(int tipo){
+        
+
+
     }
-
- pubic boolean tieneBilletes(){
-        return tieneBilletes;
-    }
-
-    public void imprimirYExpulsarBillete(int tipo){
-        if (tieneTinta && tieneBilletes){
-            System.out.println("se esta imprimiendo y expulsando los billetes");
-        }
-    }
-
-
-
-
 }
